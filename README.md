@@ -1,3 +1,5 @@
+![logo2](https://user-images.githubusercontent.com/33743193/122555900-2bb71a00-d03b-11eb-8b01-92e194bd4d86.png)
+
 ## Functional Printing
 
 This is a created class for functional printing.
@@ -155,4 +157,5 @@ if __name__ == '__main__':
 __Note__: Output comes with added colors but cannot be seen here!
 
 
-![](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+
+
