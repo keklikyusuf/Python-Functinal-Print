@@ -55,34 +55,27 @@ if __name__ == '__main__':
     printYellow = PrintStamps(BColors.yellow)
     printRed = PrintStamps(BColors.red)
     printNormal = PrintStamps(BColors.normal)
-    ###########################################
-    printPurple.dateStamp('Printing with date stamp!')
-    printPurple.timeStamp('Printing with time stamp!')
-    printPurple.datetimeStamp('Printing with date and time stamp!')
-    ###########################################
-    printBlue.dateStamp('Printing with date stamp and error!')
-    printBlue.timeStamp('Printing with time stamp!')
-    printBlue.datetimeStamp('Printing with date and time stamp!')
-    ###########################################
-    printCyan.dateStamp('Printing with date stamp and error!')
-    printCyan.timeStamp('Printing with time stamp!')
-    printCyan.datetimeStamp('Printing with date and time stamp!')
-    ###########################################
-    printGreen.dateStamp('Printing with date stamp and error!')
-    printGreen.timeStamp('Printing with time stamp!')
-    printGreen.datetimeStamp('Printing with date and time stamp!')
-    ###########################################
-    printYellow.dateStamp('Printing with date stamp and error!')
-    printYellow.timeStamp('Printing with time stamp!')
-    printYellow.datetimeStamp('Printing with date and time stamp!')
-    ###########################################
-    printRed.dateStamp('Printing with date stamp and error!')
-    printRed.timeStamp('Printing with time stamp!')
-    printRed.datetimeStamp('Printing with date and time stamp!')
-    ###########################################
-    printNormal.dateStamp('Printing with date stamp and error!')
-    printNormal.timeStamp('Printing with time stamp!')
-    printNormal.datetimeStamp('Printing with date and time stamp!')
+    printPurple.dateStamp('Printing with date stamp with Purple!')
+    printPurple.timeStamp('Printing with time stamp with Purple!')
+    printPurple.datetimeStamp('Printing with date and time stamp with Purple!')
+    printBlue.dateStamp('Printing with date stamp with Blue!')
+    printBlue.timeStamp('Printing with time stamp with Blue!')
+    printBlue.datetimeStamp('Printing with date and time stamp with Blue!')
+    printCyan.dateStamp('Printing with date stamp with Cyan!')
+    printCyan.timeStamp('Printing with time stamp with Cyan!')
+    printCyan.datetimeStamp('Printing with date and time stamp with Cyan!')
+    printGreen.dateStamp('Printing with date stamp with Green!')
+    printGreen.timeStamp('Printing with time stamp with Green!')
+    printGreen.datetimeStamp('Printing with date and time stamp with Green!')
+    printYellow.dateStamp('Printing with date stamp with Yellow!')
+    printYellow.timeStamp('Printing with time stamp with Yellow!')
+    printYellow.datetimeStamp('Printing with date and time stamp with Yellow!')
+    printRed.dateStamp('Printing with date stamp with Red!')
+    printRed.timeStamp('Printing with time stamp with Red!')
+    printRed.datetimeStamp('Printing with date and time stamp with Red!')
+    printNormal.dateStamp('Printing with date stamp with Normal/Gray!')
+    printNormal.timeStamp('Printing with time stamp with Normal/Gray!')
+    printNormal.datetimeStamp('Printing with date and time stamp with Normal/Gray!')
 
 
 
