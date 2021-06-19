@@ -10,7 +10,9 @@ import sys
 
 
 class BColors:
-
+    """
+    Color codes has been named for easy usage that can be called with their names.
+    """
     purple = '\033[95m'
     blue = '\033[94m'
     cyan = '\033[96m'
@@ -23,10 +25,19 @@ class BColors:
 class PrintStamps:
 
     def __init__(self, color):
+        """
+        :param color: Enter desired color that has been alredy defined at BColors class!
+        Funtional printing object is being created. For seperation spacer can be changed according to wishes. 
+        """
         self.spacer = '------------------------------------------------------------------------------------'
         self.color = color
 
     def dateStamp(self, message):
+        """
+        :param message: Text message that wanted to be printed
+        :return: This function returns to printed text message
+        Any message is being printed with defined stamp to create functional colorful printing
+        """
         sys.stdout.write(self.color)
         now = datetime.datetime.now()
         text = f'{now.strftime("%d/%m/%Y")}: {message} \n{self.spacer}'
@@ -34,6 +45,11 @@ class PrintStamps:
         return text
 
     def timeStamp(self, message):
+        """
+        :param message: Text message that wanted to be printed
+        :return: This function returns to printed text message
+        Any message is being printed with defined stamp to create functional colorful printing
+        """
         sys.stdout.write(self.color)
         now = datetime.datetime.now()
         text = f'{now.strftime("%X")}: {message} \n{self.spacer}'
@@ -41,6 +57,11 @@ class PrintStamps:
         return text
 
     def datetimeStamp(self, message):
+        """
+        :param message: Text message that wanted to be printed
+        :return: This function returns to printed text message
+        Any message is being printed with defined stamp to create functional colorful printing
+        """
         sys.stdout.write(self.color)
         now = datetime.datetime.now()
         text = f'{now.strftime("%d/%m/%Y - %X")}: {message} \n{self.spacer}'
